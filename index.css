@@ -1,0 +1,299 @@
+body {
+    background-color: black;
+    font-family: Comic Sans MS;
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+@keyframes border {
+    0% {
+        border-color: yellow;
+    }
+
+    10% {
+        border-color: yellow;
+    }
+
+    20% {
+        border-color: red;
+    }
+
+    30% {
+        border-color: saddlebrown;
+    }
+
+    40% {
+        border-color: sandybrown;
+    }
+
+    60% {
+        border-color: palevioletred;
+    }
+
+    70% {
+        border-color: orange;
+    }
+
+    80% {
+        border-color: violet;
+    }
+
+    90% {
+        border-color: aquamarine;
+    }
+
+    100% {
+        border-color: honeydew;
+    }
+
+    0% {
+        color: yellow;
+    }
+
+    10% {
+        color: yellow;
+    }
+
+    20% {
+        color: red;
+    }
+
+    30% {
+        color: saddlebrown;
+    }
+
+    40% {
+        color: sandybrown;
+    }
+
+    60% {
+        color: palevioletred;
+    }
+
+    70% {
+        color: orange;
+    }
+
+    80% {
+        color: violet;
+    }
+
+    90% {
+        color: aquamarine;
+    }
+
+    100% {
+        color: honeydew;
+    }
+
+
+}
+
+.main-first {
+    background-image: url(hero-bg.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 650px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-img img {
+    width: 40px;
+    margin-top: 5px;
+}
+
+.logo-text {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 5px;
+    animation: border 2s infinite;
+}
+
+.nav-links {
+    margin-top: 14px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: 16px;
+    animation: border 2s infinite;
+}
+
+.logo-text {
+    font-family: Comic Sans MS;
+}
+
+button {
+
+    height: 36px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+    padding-bottom: 9px;
+    background-color: black;
+    border-color: yellow;
+    border-width: 4px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-right: 20px;
+
+    animation: border 1s infinite;
+}
+
+.Film {
+    margin-top: 140px;
+    color: yellow;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.tag-line {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.sing-up-btn-2 {
+    margin-top: 20px;
+}
+
+.Online-Streamings {
+    animation: border 1s infinite;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.Top-rated-movies {
+    animation: border 1s infinite;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+}
+
+.black {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: dimgray;
+    margin-top: 40px;
+}
+
+.option {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 3px solid yellow;
+    border-right: 3px solid yellow;
+}
+
+.option a {
+    text-decoration: none;
+    color: yellow
+}
+
+.option:hover {
+    animation: border .5s infinite;
+}
+
+
+.option a:hover {
+    animation: border .5s infinite;
+}
+
+.movies-list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 80px;
+    animation: border .5s infinite;
+}
+
+.movie img {
+    width: 200px;
+}
+.movie-option{border: 2px solid;
+    animation: border 2s infinite;}
+.movie-name-year{display: flex;
+justify-content: space-between;
+margin-left: 4px;
+margin-right: 4px;}
+
+.movie-quality{display: flex;
+justify-content: space-between;
+margin-left: 4px;
+margin-right: 4px;}
+
+.more{font-size: 20px;
+font-weight: bolder;
+margin-top: 40px;
+color: yellow;}
+
+.op{color: yellow;
+font-size: 30px;
+font-weight: bolder;
+margin-top: 70px;}
+
+.footer{
+    display: flex;
+justify-content: space-between;
+    background-image: url(hero-bg.jpg);
+    color:;
+    animation: border 1s infinite;
+    margin-top: 50px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 25px;}
+.text{font-size: 30px;
+font-weight: bolder;
+}
+
+.text-2{font-size: 15px;
+font-weight: bolder;}
+
+.ema{border-radius: 50px;
+    padding:5px 5px 5px 5px;
+    animation: border 1s infinite;
+    background-color: transparent;
+    color:hotpink;
+border-width: 4px;}
+
+
+.email-btn{font-size: 15px;}
+
+.pay{display: flex;
+justify-content: space-between;
+margin-top: 30px;
+background-image: url(hero-bg.jpg);
+border-radius: 30px;
+height: 60px;
+}
+
+.rights,.payment{margin-top: 15px;
+}
+
+.rights{margin-left: 20px;}
+.payment{margin-right: 20px;}
