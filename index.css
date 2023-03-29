@@ -327,10 +327,15 @@ button {
     margin-right: 20px;
 }
 
-@media screen and (max-width: 480px) 
+
+
+
+
+
+@media only screen and (max-width: 600px) 
 
 {
-    body{max-width: 480px;
+    body{max-width: ;
     ;}
  
     .nav-bar{display: contents;
